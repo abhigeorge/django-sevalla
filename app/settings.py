@@ -28,7 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-CSRF_TRUSTED_ORIGINS = ['https://*.kinsta.app', 'https://*.sevalla.app']
+CSRF_TRUSTED_ORIGINS = ['https://*.itsmyshot.com']
 
 # Application definition
 
