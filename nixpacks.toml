@@ -1,2 +1,3 @@
 [phases.build]
+NIXPACKS_NODE_VERSION = "20"
 cmds = ["python manage.py collectstatic --noinput"]
