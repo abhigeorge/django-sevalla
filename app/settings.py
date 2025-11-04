@@ -26,9 +26,9 @@ SECRET_KEY = os.environ['SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['itsmyshot.com', 'www.itsmyshot.com']
+ALLOWED_HOSTS = ['*']
 
-CSRF_TRUSTED_ORIGINS = ['https://itsmyshot.com']
+CSRF_TRUSTED_ORIGINS = ['https://djangotest-frontend-myczvk-766f42-158-69-198-42.traefik.me']
 
 # Application definition
 
